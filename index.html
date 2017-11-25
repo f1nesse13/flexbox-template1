@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Flexbox Responsive Practice Page</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <title>Document</title>
 </head>
@@ -21,7 +24,7 @@
      </nav>
    </header>
    <section class="hero">
-     <div class="background-image" style="background-image: url('./assets/img/main.jpg');"></div>
+     <div class="background-image" style="background-image: url(assets/img/main.jpg);"></div>
        <div class="hero-content-area">
             <h1>Responsive Flexbox Template</h1>
             <h3>Written by J Pell</h3>
@@ -29,13 +32,71 @@
         </div>
    </section>
    <section class="work">
-       <h1 class="title">Some Of My Work</h1>
-       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae nisi at nisi ullamcorper blandit. 
-           Suspendisse sit amet enim id dolor consectetur ultricies. Cras et.</p>
+       <h3 class="title">Some Of My Work</h3>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+           Rum sociis natoque penatibus et magnis dis parturient montes. Proin fermentum leo vel orci. </p>
+           <hr>
+           <ul class="grid">
+               <li class="small" style="background-image: url(assets/img/mountain1.jpg);"></li>
+               <li class="large" style="background-image: url(assets/img/mountain2.jpg);"></li>
+               <li class="large" style="background-image: url(assets/img/mountain3.jpg);"></li>
+               <li class="small" style="background-image: url(assets/img/mountain4.jpg);"></li>
+           </ul>
    </section>
-   <section class="work-gallery">
-       <div></div>
+   <section class="services">
+       <h3 class="title">Features and Services</h3>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        Rum sociis natoque penatibus et magnis dis parturient montes. Proin fermentum leo vel orci.</p>
+        <hr>
+        <ul class="grid-services">
+            <li class="feature">
+                <i class="fa fa-cubes" aria-hidden="true"></i>
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Proin fermentum leo vel orci porta non pulvinar neque laoreet.</p>
+            </li>
+            <li class="feature">
+                <i class="fa fa-desktop" aria-hidden="true"></i>
+                <h3>SEO/SMO</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Proin fermentum leo vel orci porta non pulvinar neque laoreet.</p>
+            </li>
+            <li class="feature">
+                <i class="fa fa-newspaper-o" aria-hidden="true"></i>
+                <h3>Content Editing</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Proin fermentum leo vel orci porta non pulvinar neque laoreet.</p>
+
+            </li>
+        </ul>
    </section>
+   <section class="comments" title="What others say about designs by finesse">
+       <h3 class="title">What others have to say about Finesse Designs</h3>
+       <p class="quote">Best design company I've ever had the pleasure of doing buisness with.</p>
+       <p class="author">- This Guy</p>
+       <p class="quote">Great designs and fast services.</p>
+       <p class="author">- That Guy</p>
+       <p class="quote">I will tell everyone I know about Finesse Designs!</p>
+       <p class="author">- The Other Guy</p>
+   </section>
+   <section class="newsletter">
+       <h3 class="title">Join our Newsletter</h3>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        Proin fermentum leo vel orci porta non pulvinar neque laoreet.</p>
+        <hr>
+        <form action="#" class="signup">
+            <input type="email">
+            <a href="#" class="btn">Sign Up!</a>
+        </form>
+   </section>
+   <footer>
+       <ul>
+           <li>Facebook Logo</li> <li>Twitter Logo</li> <li>Github Logo</li>
+       </ul>
+       <p>Created with Finesse</p>
+       <p>Finesse Designs &copy</p>
+   </footer>
+   
 
     </body>
 </html>
